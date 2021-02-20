@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devcells/Website/main/static/images/DevCells_NoSpace.png" width="512px" draggable="false">
+  <img src="https://raw.githubusercontent.com/devcells/Website/main/static/images/DevCells_NoSpace.png" width="320px" draggable="false">
 </p>
 
  <h1 align="center">DevCells Website</h1>
