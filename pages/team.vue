@@ -3,7 +3,7 @@
     <div class="flex items-center justify-center text-center h-screen">
       <div class="grid grid-cols-1 gap-4">
         <h1 class="devcells-title animate__animated animate__backInDown">
-          TEAM
+          Our Team
         </h1>
         <div style="font-family: whitney" class="projects-box">
           <a
@@ -56,7 +56,7 @@ export default {
       method: "GET",
     }).then((response) => {
       this.members = response.data;
-    }); // If the api shuts down. My website shut downs sadly.
+    }); // If the api shuts down. My website shut downs, sadly.
   },
 };
 </script>
