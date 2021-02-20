@@ -6,7 +6,7 @@
     >
       <div class="grid grid-cols-1 gap-4">
         <h1 class="devcells-title animate__animated animate__backInDown">
-          Brandings
+          Brand
         </h1>
         <h1 class="animate__animated animate__backInLeft">
           Our logo
