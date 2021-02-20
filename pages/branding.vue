@@ -5,7 +5,7 @@
       class="flex items-center justify-center text-center"
     >
       <div class="grid grid-cols-1 gap-4">
-        <h1 class="devcells-title animate__animated animate__backInDown">
+        <h1 class="text-5xl md:text-xxl animate__animated animate__backInDown">
           Brand
         </h1>
         <h1 class="animate__animated animate__backInLeft">

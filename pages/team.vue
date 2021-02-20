@@ -2,7 +2,7 @@
   <div>
     <div class="flex items-center justify-center text-center h-screen">
       <div class="grid grid-cols-1 gap-4">
-        <h1 class="devcells-title animate__animated animate__backInDown">
+        <h1 class="text-5xl md:text-xxl animate__animated animate__backInDown">
           Our Team
         </h1>
         <div style="font-family: whitney" class="projects-box">
@@ -11,7 +11,7 @@
             v-bind:key="member.login"
             :href="`https://github.com/${member.login}`"
             ><div
-              class="animate__animated animate__jackInTheBox user-card h-15 flex items-center p-2 rounded-xl shadow"
+              class="animate__animated animate__jackInTheBox bg-gray-900 h-15 flex items-center p-2 rounded-xl shadow"
             >
               <div class="ml-1 flex items-center space-x-4">
                 <img
