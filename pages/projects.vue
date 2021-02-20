@@ -6,10 +6,10 @@
           Projects
         </h1>
         <div class="projects-box">
-          <a href="https://github.com/devcells/Website" target="_blank"><div class="project-card animate__animated animate__backInLeft">
+          <div class="project-card animate__animated animate__backInLeft">
             <h2>DevCells</h2>
             <p class="project-description">¯\_(ツ)_/¯</p>
-          </div></a>
+          </div>
           <div class="project-card animate__animated animate__backInUp">
             <h2>Nothing</h2>
             <p class="project-description">...</p>
@@ -20,7 +20,10 @@
           </div>
         </div>
         <div class="flex justify-center items-center align-center mt-5 mr-2">
-          <a href="/" class="animate__animated animate__backInUp button rounded-full font-bold text-center text-white px-4 py-3 transition duration-300 ease-in-out">
+          <a
+            href="/"
+            class="animate__animated animate__backInUp button rounded-full font-bold text-center text-white px-4 py-3 transition duration-300 ease-in-out"
+          >
             Go Back
           </a>
         </div>
