@@ -6,10 +6,10 @@
           Projects
         </h1>
         <div class="projects-box">
-          <div class="project-card animate__animated animate__backInLeft">
+          <a href="https://github.com/devcells/Website" target="_blank"><div class="project-card animate__animated animate__backInLeft">
             <h2>DevCells</h2>
             <p class="project-description">¯\_(ツ)_/¯</p>
-          </div>
+          </div></a>
           <div class="project-card animate__animated animate__backInUp">
             <h2>Nothing</h2>
             <p class="project-description">...</p>
