@@ -4,7 +4,7 @@
       <img draggable="false" class="devcells-logo animate__animated animate__jackInTheBox animate__delay-0.1s" src="/images/DevCells_NoSpace.png" alt="logo">
       <h1 class="devcells-title animate__animated animate__backInUp">DevCells</h1>
       <div class="grid grid-cols-2 gap-4 text-center items-center">
-        <a target="_blank" href="https://discord.com" class="animate__animated animate__backInLeft button rounded-full font-bold text-center text-white px-4 py-3 transition duration-300 ease-in-out">
+        <a target="_blank" href="https://discord.gg/atMxBEG4ne" class="animate__animated animate__backInLeft button rounded-full font-bold text-center text-white px-4 py-3 transition duration-300 ease-in-out">
           DISCORD
         </a>
         <a target="_blank" href="https://github.com/devcells" class="animate__animated animate__backInRight button rounded-full font-bold text-center text-white px-4 py-3 transition duration-300 ease-in-out">
