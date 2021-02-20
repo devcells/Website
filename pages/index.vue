@@ -13,7 +13,7 @@
       <div class="grid grid-cols-2 gap-4 text-center items-center">
         <a
           target="_blank"
-          href="https://discord.com/atMxBEG4ne"
+          href="https://discord.gg/atMxBEG4ne"
           class="animate__animated animate__backInLeft button rounded-full font-bold text-center text-white px-4 py-3 transition duration-300 ease-in-out"
         >
           DISCORD
