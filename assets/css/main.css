@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Discord';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Discord'), url('/fonts/Discord.woff2') format('woff2');
+}    
+
+@font-face {
+    font-family: 'Whitney';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Whitney'), url('/fonts/Whitney.woff') format('woff');
+}    
+
+body,html {
+    background: #111218;
+    color:white;
+    font-family: 'Discord';
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;    
+    overflow: hidden;
+}
+
+.devcells-logo {
+    width: 400px;
+    height: 270px;
+}
+
+.devcells-title {
+    font-size: 70px !important;
+}
+
+.button {
+    background: #7289DA;
+    width: 200px;
+}
+.button:hover {
+    box-shadow: 0 3px 22px -7px rgb(122 144 220 / 70%);
+    background: #869adf;
+}
+
+@media screen and (max-width: 800px) {
+    body,html {
+      width: 100%;
+    }
+    .devcells-logo {
+        display:flex;
+        margin: 0 auto;
+        width: 250px;
+        height: 160px;
+    }
+    
+    .devcells-title {
+        font-size: 70px !important;
+    }
+
+    .project-card {
+        width: 60px;
+        height: 30px;
+    }
+}
+  
+
+.footer {
+    font-family: 'Whitney';
+}
+
+.projects {
+    font-family: 'Whitney';
+    color: white;
+}
+
+.projects h1 {
+    font-size: 35px;
+}
+
+.project-card h1 {
+    font-size: 30px;
+}
+
+.project-card {
+    background: #212530;
+    width: 200px;
+    height: 68px;
+    padding: 3px 4px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 2px rgba(33,37,48, 0.6);
+}
+
+.brand-image {
+    background: #212530;
+    width: 200px;
+    height: 200px;
+    padding: 3px 4px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 2px rgba(33,37,48, 0.6);
+}
+
+.brand-image-wordmark {
+    background: #212530;
+    width: 350px;
+    height: 200px;
+    padding: 3px 4px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 2px rgba(33,37,48, 0.6);
+}
+
+.brand-image-wordmark img {
+    width: 450px;
+    height: 120px;
+}
+
+.project-description {
+    color: #b3b3b4;
+}
+
+.project-card h2 {
+    font-size: 25px;
+}
+
+
+.footer a {
+    color: #565a5f;
+    transition: all .1s cubic-bezier(.25,.46,.45,.94);
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.projects-box {
+    display:flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    border: 4px solid #191b24;
+    border-radius: 20px;
+    background: #111218;
+}
+::-webkit-scrollbar-track {
+    background: #191b24;
+    border: none;
+}
