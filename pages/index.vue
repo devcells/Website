@@ -32,8 +32,8 @@
         <a href="/projects" class="animate__animated animate__backInUp"
           >Projects</a
         >
-        <a href="/brandings" class="animate__animated animate__backInUp"
-          >Brandings</a
+        <a href="/branding" class="animate__animated animate__backInUp"
+          >Branding</a
         >
         <a href="/team" class="animate__animated animate__backInUp"
           >Team</a
