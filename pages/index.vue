@@ -7,7 +7,7 @@
         src="/images/DevCells_NoSpace.png"
         alt="logo"
       />
-      <h1 class="devcells-title animate__animated animate__backInUp">
+      <h1 class="animate__animated animate__backInUp text-5xl md:text-xxl">
         DevCells
       </h1>
       <div class="grid grid-cols-2 gap-4 text-center items-center">

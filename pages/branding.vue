@@ -10,7 +10,7 @@
         </h1>
         <h1 class="animate__animated animate__backInLeft">
           Our logo
-          <p style="color: #b3b3b4">
+          <p style="color: #b3b3b4" class="mx-auto px-4">
             ( Please do not edit, change, distort, recolor, or reconfigure the
             DevCells logo. )
           </p>
@@ -51,7 +51,7 @@
         >
           <a
             href="/"
-            class="animate__animated animate__backInUp button rounded-full font-bold text-center text-white px-4 py-3 transition duration-300 ease-in-out"
+            class="animate__animated animate__backInUp button rounded-full font-bold text-center text-white px-16 py-3 transition duration-300 ease-in-out"
           >
             Go Back
           </a>
