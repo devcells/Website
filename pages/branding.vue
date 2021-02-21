@@ -47,7 +47,7 @@
 
         <div
           style="overflow: hidden !important"
-          class="flex justify-center items-center align-center mt-5 mr-2 mb-6"
+          class="flex justify-center items-center align-center mt-5 mr-2"
         >
           <a
             href="/"
@@ -55,6 +55,7 @@
           >
             Go Back
           </a>
+          <br><br><br><br>
         </div>
       </div>
     </div>
