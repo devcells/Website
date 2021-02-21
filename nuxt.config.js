@@ -67,7 +67,7 @@ export default {
       { 
         rel: "icon", 
         type: "image/x-icon", 
-        href: "/images/DevCells_NoSpace.png" 
+        href: "/assets/images/DevCells_NoSpace.png" 
       },
       {
         rel: "stylesheet",
