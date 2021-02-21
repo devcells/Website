@@ -12,7 +12,7 @@
             :href="project.html_url"
           >
             <div
-              class="project-card break-words animate__animated animate__backInLeft"
+              class="project-card break-words animate__animated animate__jackInTheBox"
             >
               <span class="text-1xl md:text-xl">{{ project.name }}</span>
               <p class="project-description">{{ project.description }}</p>
