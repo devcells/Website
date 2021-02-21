@@ -8,7 +8,7 @@
         <div style="font-family: whitney" class="projects-box">
           <a
             v-for="member in members"
-            v-bind:key="member.login"
+            :key="member.login"
             :href="`https://github.com/${member.login}`"
             ><div
               class="animate__animated animate__jackInTheBox bg-gray-900 h-15 flex items-center p-2 rounded-xl shadow"
@@ -54,9 +54,13 @@ export default {
     axios({
       url: "https://api.github.com/orgs/devcells/members",
       method: "GET",
-    }).then((response) => {
-      this.members = response.data;
-    }); // If the api shuts down. My website shut downs, sadly.
+    })
+      .then((response) => {
+        this.members = response.data;
+      })
+      .catch((err) => {
+        this.$router.push("/");
+      });
   },
 };
 </script>
