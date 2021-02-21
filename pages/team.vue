@@ -11,7 +11,7 @@
             :key="member.login"
             :href="`https://github.com/${member.login}`"
             ><div
-              class="animate__animated animate__jackInTheBox bg-gray-900 h-15 flex items-center p-2 rounded-xl shadow"
+              class="animate__animated animate__jackInTheBox team-card h-15 flex items-center p-2 rounded-xl"
             >
               <div class="ml-1 flex items-center space-x-4">
                 <img

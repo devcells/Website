@@ -2,20 +2,20 @@
     font-family: 'Discord';
     font-style: normal;
     font-weight: normal;
-    src: local('Discord'), url('/fonts/Discord.woff2') format('woff2');
+    src: local('Discord'), url('/assets/fonts/Discord.woff2') format('woff2');
 }    
 
 @font-face {
     font-family: 'Whitney';
     font-style: normal;
     font-weight: normal;
-    src: local('Whitney'), url('/fonts/Whitney.woff') format('woff');
+    src: local('Whitney'), url('/assets/fonts/Whitney.woff') format('woff');
 }    
 
 body,html {
     background: #111218;
     color:white;
-    font-family: 'Discord';
+    font-family: 'Discord', sans-serif;
     width: 100%;
     user-select: none;
     -webkit-user-select: none;
@@ -56,12 +56,9 @@ body,html {
 }
   
 
-.footer {
-    font-family: 'Whitney';
-}
 
 .projects {
-    font-family: 'Whitney';
+    font-family: 'Whitney', sans-serif;
     color: white;
 }
 
@@ -157,4 +154,15 @@ body,html {
 
 .gr-text {
     color: #b3b3b4;
+}
+
+.team-card {
+    width: 250px;
+    transition: all .15s ease-in-out !important;
+    background: linear-gradient(90deg, rgba(53,54,68,1) 0%, rgba(41,41,61,1) 100%);
+    color:white;
+}
+
+.team-card:hover {
+    box-shadow: rgb(41 41 80 / 30%) 0px 2px 52px 0px
 }
