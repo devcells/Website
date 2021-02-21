@@ -17,13 +17,13 @@
         </h1>
         <div style="overflow: hidden !important" class="projects-box">
           <div class="brand-image animate__animated animate__backInLeft">
-            <img src="/images/DevCells_White.png" />
+            <img draggable="false" src="/images/DevCells_White.png" />
           </div>
           <div class="brand-image animate__animated animate__backInUp">
-            <img src="/images/DevCells_Black.png" />
+            <img draggable="false" src="/images/DevCells_Black.png" />
           </div>
           <div class="brand-image animate__animated animate__backInRight">
-            <img src="/images/DevCells_Gradient.png" />
+            <img draggable="false" src="/images/DevCells_Gradient.png" />
           </div>
         </div>
         <h1 class="animate__animated animate__backInLeft">Logo + Wordmark</h1>
@@ -31,17 +31,17 @@
           <div
             class="brand-image-wordmark flex items-center justify-center animate__animated animate__backInLeft"
           >
-            <img src="/images/DevCells_White_Text.png" />
+            <img draggable="false" src="/images/DevCells_White_Text.png" />
           </div>
           <div
             class="brand-image-wordmark flex items-center justify-center animate__animated animate__backInUp"
           >
-            <img src="/images/DevCells_Black_Text.png" />
+            <img draggable="false" src="/images/DevCells_Black_Text.png" />
           </div>
           <div
             class="brand-image-wordmark flex items-center justify-center animate__animated animate__backInRight"
           >
-            <img src="/images/DevCells_Gradient_Text.png" />
+            <img draggable="false" src="/images/DevCells_Gradient_Text.png" />
           </div>
         </div>
 
