@@ -61,6 +61,6 @@
 *,
 body,
 html {
-  overflow: auto;
+  overflow: visible;
 }
 </style>
