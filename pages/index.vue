@@ -43,7 +43,7 @@
         class="footer mt-5 animate__animated animate__backInUp"
         style="font-family: whitney"
       >
-        Inspired from <a href="https://premid.app/" target="_blank">PreMid</a>.
+        Inspired from <a href="https://premid.app/" target="_blank">PreMid</a>
       </p>
     </div>
   </div>
