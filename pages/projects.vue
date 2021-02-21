@@ -5,19 +5,19 @@
         <h1 class="text-5xl md:text-xxl animate__animated animate__backInDown">
           Projects
         </h1>
-        <div class="projects-box">
-          <div class="project-card animate__animated animate__backInLeft">
-            <h2>DevCells</h2>
-            <p class="project-description">¯\_(ツ)_/¯</p>
-          </div>
-          <div class="project-card animate__animated animate__backInUp">
-            <h2>Nothing</h2>
-            <p class="project-description">...</p>
-          </div>
-          <div class="project-card animate__animated animate__backInRight">
-            <h2>Nothing</h2>
-            <p class="project-description">...</p>
-          </div>
+        <div style="font-family: whitney" class="projects-box">
+          <a
+            v-for="project in projects"
+            :key="project.name"
+            :href="project.html_url"
+          >
+            <div
+              class="project-card break-words animate__animated animate__backInLeft"
+            >
+              <span class="text-1xl md:text-xl">{{ project.name }}</span>
+              <p class="project-description">{{ project.description }}</p>
+            </div>
+          </a>
         </div>
         <div class="flex justify-center items-center align-center mt-5 mr-2">
           <a
@@ -31,3 +31,29 @@
     </div>
   </div>
 </template>
+
+<script>
+import axios from "axios";
+
+export default {
+  data() {
+    return {
+      projects: [],
+    };
+  },
+  created() {
+    axios({
+      url: "https://api.github.com/orgs/devcells/repos",
+      method: "GET",
+    })
+      .then((response) => {
+        this.projects = response.data.filter(
+          (project) => project.name !== "devcells.github.io"
+        );
+      })
+      .catch((err) => {
+        this.$router.push("/");
+      });
+  },
+};
+</script>
