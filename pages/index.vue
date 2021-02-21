@@ -4,7 +4,7 @@
       <img
         draggable="false"
         class="devcells-logo animate__animated animate__jackInTheBox animate__delay-0.1s"
-        src="/images/DevCells_NoSpace.png"
+        src="/assets/images/DevCells_NoSpace.png"
         alt="logo"
       />
       <h1 class="animate__animated animate__backInUp text-5xl md:text-xxl">
@@ -16,18 +16,18 @@
           href="https://discord.gg/atMxBEG4ne"
           class="animate__animated animate__backInLeft button rounded-full font-bold text-center text-white px-4 py-3 transition duration-300 ease-in-out"
         >
-          DISCORD
+          <i class="fab fa-discord"></i> DISCORD
         </a>
         <a
           target="_blank"
           href="https://github.com/devcells"
           class="animate__animated animate__backInRight button rounded-full font-bold text-center text-white px-4 py-3 transition duration-300 ease-in-out"
         >
-          GITHUB
+          <i class="fab fa-github"></i> GITHUB
         </a>
       </div>
       <div
-        class="flex items-center text-center align-center grid grid-cols-3 gap-4 footer mt-6"
+        class="flex items-center text-center whitney align-center grid grid-cols-3 gap-4 footer mt-6"
       >
         <a href="/projects" class="animate__animated animate__backInUp"
           >Projects</a
@@ -35,13 +35,10 @@
         <a href="/branding" class="animate__animated animate__backInUp"
           >Branding</a
         >
-        <a href="/team" class="animate__animated animate__backInUp"
-          >Team</a
-        >
+        <a href="/team" class="animate__animated animate__backInUp">Team</a>
       </div>
       <p
-        class="footer mt-5 animate__animated animate__backInUp"
-        style="font-family: whitney"
+        class="footer mt-5 animate__animated animate__backInUp whitney"
       >
         Inspired from <a href="https://premid.app/" target="_blank">PreMid</a>
       </p>
