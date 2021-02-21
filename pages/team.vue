@@ -28,12 +28,12 @@
             </div>
           </a>
         </div>
-        <div class="flex justify-center items-center align-center mt-5 mr-2">
+        <div class="flex justify-center items-center align-center mt-5">
           <a
             href="/"
             class="animate__animated animate__backInUp button rounded-full font-bold text-center text-white px-16 py-3 transition duration-300 ease-in-out"
           >
-            Go Back
+            <i class="fas fa-arrow-left"></i> Go Back
           </a>
         </div>
       </div>
