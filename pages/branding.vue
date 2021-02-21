@@ -1,16 +1,13 @@
 <template>
   <div>
-    <div
-      style="font-family: whitney"
-      class="flex items-center justify-center text-center"
-    >
+    <div class="flex items-center justify-center text-center">
       <div class="grid grid-cols-1 gap-4">
         <h1 class="text-5xl md:text-xxl animate__animated animate__backInDown">
           Brand
         </h1>
-        <h1 class="animate__animated animate__backInLeft">
+        <h1 class="whitney animate__animated animate__backInLeft">
           Our logo
-          <p style="color: #b3b3b4" class="mx-auto px-4">
+          <p class="gr-text whitney mx-auto px-4">
             ( Please do not edit, change, distort, recolor, or reconfigure the
             DevCells logo. )
           </p>
@@ -26,7 +23,9 @@
             <img draggable="false" src="/images/DevCells_Gradient.png" />
           </div>
         </div>
-        <h1 class="animate__animated animate__backInLeft">Logo + Wordmark</h1>
+        <h1 class="animate__animated animate__backInLeft whitney">
+          Logo + Wordmark
+        </h1>
         <div style="overflow: hidden !important" class="projects-box">
           <div
             class="brand-image-wordmark flex items-center justify-center animate__animated animate__backInLeft"
