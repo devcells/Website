@@ -36,10 +36,14 @@
 import axios from "axios";
 
 export default {
+  name: 'Projects',
   data() {
     return {
       projects: []
     };
+  },
+  head:  {
+    title: 'Projects - DevCells'
   },
   created() {
     axios({

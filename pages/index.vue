@@ -52,3 +52,12 @@
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+		name: "Home",
+    head:  {
+      title: 'Home - DevCells'
+    }
+  }
+</script>

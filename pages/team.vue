@@ -45,10 +45,14 @@
 import axios from "axios";
 
 export default {
+  name: 'Team',
   data() {
     return {
-      members: [],
+      members: []
     };
+  },
+  head: {
+    title: 'Team - DevCells'
   },
   created() {
     axios({

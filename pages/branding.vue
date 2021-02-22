@@ -57,6 +57,14 @@
   </div>
 </template>
 
+<script>
+  export default {
+		name: "Branding",
+    head:  {
+      title: 'Branding - DevCells'
+    }
+  }
+</script>
 <style>
 *,
 body,
