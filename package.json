@@ -1,12 +1,12 @@
 {
-  "name": "DevCells",
+  "name": "Website",
   "description": "Source codes of DevCells website.",
   "version": "1.0.0",
   "private": true,
   "author": "@devcells",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devcells/website.git"
+    "url": "https://github.com/devcells/Website.git"
   },
   "scripts": {
     "dev": "nuxt",
