@@ -1,7 +1,10 @@
 {
-  "name": "frontend",
+  "name": "devcells-website",
+  "description": "Source codes of DevCells website.",
   "version": "1.0.0",
   "private": true,
+  "author": "@devcells",
+  "repository": "https://github.com/devcells/Website",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
