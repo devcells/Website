@@ -38,7 +38,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      projects: [],
+      projects: []
     };
   },
   created() {
@@ -54,6 +54,6 @@ export default {
       .catch((err) => {
         this.$router.push("/");
       });
-  },
+  }
 };
 </script>
