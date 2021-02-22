@@ -27,7 +27,7 @@
         </a>
       </div>
       <div
-        class="flex items-center text-center whitney align-center grid grid-cols-5 gap-4 footer mt-6"
+        class="flex items-center text-center whitney align-center grid grid-cols-3 gap-4 footer mt-6"
       >
         <a href="/projects" class="animate__animated animate__backInUp"
           >Projects</a>
@@ -35,16 +35,20 @@
           >Branding</a>
         <a href="/team" class="animate__animated animate__backInUp"
         >Team</a>
-        <a href="https://instagram.devcells.party" class="animate__animated animate__backInUp"
-        >Instagram</a>
-        <a href="https://twitter.devcells.party" class="animate__animated animate__backInUp"
-        >Twitter</a>
       </div>
       <p
         class="footer mt-5 animate__animated animate__backInUp whitney"
       >
         Inspired from <a href="https://premid.app/" target="_blank">PreMid</a>
       </p>
+     <div
+        class="flex items-center text-center whitney align-center justify-center footer mt-2"
+      >
+        <a href="https://instagram.devcells.party/" class="mr-12 animate__animated animate__backInUp"
+          ><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.devcells.party/" class="animate__animated animate__backInUp"
+          ><i class="fab fa-twitter"></i></a>
+      </div>
     </div>
   </div>
 </template>
