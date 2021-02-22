@@ -4,10 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "author": "@devcells",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/devcells/Website.git"
-  },
+  "repository": "https://github.com/devcells/Website",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
