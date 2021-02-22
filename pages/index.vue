@@ -27,15 +27,18 @@
         </a>
       </div>
       <div
-        class="flex items-center text-center whitney align-center grid grid-cols-3 gap-4 footer mt-6"
+        class="flex items-center text-center whitney align-center grid grid-cols-5 gap-4 footer mt-6"
       >
         <a href="/projects" class="animate__animated animate__backInUp"
-          >Projects</a
-        >
+          >Projects</a>
         <a href="/branding" class="animate__animated animate__backInUp"
-          >Branding</a
-        >
-        <a href="/team" class="animate__animated animate__backInUp">Team</a>
+          >Branding</a>
+        <a href="/team" class="animate__animated animate__backInUp"
+        >Team</a>
+        <a href="https://instagram.devcells.party" class="animate__animated animate__backInUp"
+        >Instagram</a>
+        <a href="https://twitter.devcells.party" class="animate__animated animate__backInUp"
+        >Twitter</a>
       </div>
       <p
         class="footer mt-5 animate__animated animate__backInUp whitney"
