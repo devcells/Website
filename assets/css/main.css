@@ -170,6 +170,7 @@ body,html {
 
 .team-card {
     width: 250px;
+    margin: 10px;
     transition: all .15s ease-in-out !important;
     background: linear-gradient(90deg, rgba(53,54,68,1) 0%, rgba(41,41,61,1) 100%);
     color:white;
